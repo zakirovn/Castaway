@@ -1,0 +1,266 @@
+/* dm-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/dm-sans-v14-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* dm-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/dm-sans-v14-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  --beli-color: #ffffff;
+  --dark-color: #191919;
+  --air-color: #118da8;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  object-fit: cover;
+  display: flex;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1 {
+  margin: 0;
+}
+body {
+  color: var(--beli-color);
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: normal;
+  background-color: var(--beli-color);
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: var(--dark-color);
+}
+
+/* HEADER START */
+
+.header {
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+}
+.site-logo {
+  padding: 50px 43px;
+}
+.site-logo-image {
+}
+.sitenav {
+  justify-content: space-between;
+}
+.setnav-list {
+  display: flex;
+}
+.setnav-item {
+  padding-top: 46px;
+  padding-right: 40px;
+}
+.setnav-link {
+  color: var(--beli-color);
+}
+
+.setnav-link-span {
+  color: var(--air-color);
+}
+
+/* HEADER END */
+
+/* MAIN START  */
+
+.main {
+}
+.hero {
+}
+.hero-container {
+  display: flex;
+}
+.container {
+}
+.hero-img {
+  border-radius: 5px;
+  padding-left: 70px;
+}
+.hero-title {
+  font-size: 70px;
+  font-weight: 400px;
+  line-height: 88px;
+  letter-spacing: 3.2px;
+  padding-top: 294px;
+  padding-left: 60px;
+}
+
+.hero-title-span {
+  font-size: 80px;
+  font-weight: 700px;
+}
+
+.hero-title-link {
+  font-size: 15px;
+  color: var(--beli-color);
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.hero-list {
+  display: flex;
+}
+.hero-item {
+  position: relative;
+  bottom: 36px;
+  padding-right: 17px;
+  padding-bottom: 20px;
+}
+.hero-link {
+}
+.hero-link-img {
+}
+
+/* SERVICE */
+
+.service {
+}
+.service-container {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+}
+.service-title {
+  padding-left: 70px;
+  font-size: 64px;
+  letter-spacing: 2.88px;
+  font-weight: 400;
+  line-height: 80px;
+}
+
+.service-item {
+}
+
+.service-link {
+  position: relative;
+  right: 70px;
+  top: 10px;
+  height: 50px;
+  background-color: var(--air-color);
+  padding: 12px 15px;
+  border-radius: 5px;
+  color: var(--beli-color);
+}
+
+/* MAIN END  */
+
+/* FOOTER START  */
+
+.footer {
+}
+.footer-container {
+  /* justify-content: space-between; */
+  display: flex;
+}
+.container {
+}
+.footer-first-title {
+  padding: 50px 43px;
+}
+.footer-first-link {
+}
+.footer-first-img {
+}
+.footer-first-list {
+  display: flex;
+}
+.footer-first-item {
+}
+.footer-first-item-link {
+}
+.footer-first-link-img {
+  padding-top: 23px;
+  padding-right: 10px;
+}
+.footer-second-title {
+  position: relative;
+  left: 300px;
+  margin-top: 40px;
+}
+.footer-second-list {
+}
+.footer-second-item {
+  font-size: 17px;
+  padding-top: 10px;
+}
+.footer-second-link {
+  color: var(--beli-color);
+}
+
+.footer-third-title {
+  position: relative;
+  left: 400px;
+  margin-top: 40px;
+}
+.footer-third-list {
+}
+.footer-third-item {
+  padding-top: 10px;
+  font-size: 17px;
+}
+.footer-third-link {
+  color: var(--beli-color);
+}
+
+.footer-icons {
+  position: relative;
+  left: 400px;
+  margin-top: 50px;
+}
+.footer-icons-list {
+}
+.footer-icons-item {
+}
+
+.footer-icons-link {
+}
+.footer-icons-img {
+  padding-left: 10px;
+}
+/* FOOTER END  */
